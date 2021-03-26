@@ -1,3 +1,15 @@
-<h1 align="center"><strong>ＳＡＬＴＹＳＷＥＥＴ</strong></h1> 
+<p align="center">
+  <a href="https://github.com/salty-sweet/">
+    <img src="saltysweet.gif" alt="saltysweet banner wow">
+  </a>
 
-[![SALTY's GitHub stats](https://github-readme-stats.vercel.app/api?username=salty-sweet&count_private=true&show_icons=true&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
+  <p align="center">
+    <strong>I have an absurd fascination on #ff0049 and #f0f0f0.</strong>
+    <br />
+    I also make stuff that kind of work as expected.
+    <br /><br />
+    <strong>~ <i>
+      <a href="https://salty-sweet.github.io">salty-sweet.github.io</a>
+    </i> ~</strong>
+  </p>
+</p>

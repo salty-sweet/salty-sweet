@@ -11,5 +11,9 @@
     <strong>~ <i>
       <a href="https://salty-sweet.github.io">salty-sweet.github.io</a>
     </i> ~</strong>
+    <br /><br />
+    <strong>~ <i>
+      <a href="https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13">here's a pretty sweet git commit convention.</a>
+    </i> ~</strong>
   </p>
 </p>

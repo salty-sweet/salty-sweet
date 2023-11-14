@@ -9,7 +9,7 @@
     I also make stuff that kind of work as expected.
     <br /><br />
     <strong>~ <i>
-      <a href="https://salty-sweet.github.io">salty-sweet.github.io</a>
+      narcissite (narcissistic website) in development
     </i> ~</strong>
     <br /><br />
     <strong>~ <i>

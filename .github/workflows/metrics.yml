@@ -16,54 +16,24 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: metrics-info.svg
+          filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: header, repositories, activity, metadata
-          base_indepth: yes
-          plugin_lines: yes
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.habits.facts.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_habits: yes
-          plugin_habits_facts: yes
-          plugin_habits_charts: no
           config_timezone: Asia/Manila
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.achievements.compact.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
+          base: header, activity, community, repositories, metadata
+          base_indepth: yes
+          plugin_habits: yes
+          plugin_habits_charts: no
+          plugin_habits_facts: yes
           plugin_achievements: yes
-          plugin_achievements_only: >-
-            polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
-            scripter, packager, explorer, infographile, manager
-          plugin_achievements_display: detailed
           plugin_achievements_threshold: C
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: metrics-languages.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
+          plugin_achievements_display: detailed
           plugin_languages: yes
-          plugin_languages_ignored: >-
-            html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
-            gnuplot
-          plugin_languages_limit: 4
-          plugin_languages_threshold: 2%
           plugin_languages_indepth: yes
-          plugin_languages_details: lines, bytes-size
-          plugin_languages_analysis_timeout: 15
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.licenses.ratio.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          template: repository
-          repo: metrics
+          plugin_languages_threshold: 2%
+          plugin_languages_analysis_timeout_repositories: 15
+          plugin_languages_details: lines, bytes-size, percentage
           plugin_licenses: yes
           plugin_licenses_setup: bash -c '[[ -f package.json ]] && npm ci || true'
           plugin_licenses_legal: no
           plugin_licenses_ratio: yes
-          # plugin_languages_aliases: javascript:JS typescript:TS
+          config_order: base.header, achievements, base.repositories, languages, base.activity, base.community, habits, licenses, base.metadata

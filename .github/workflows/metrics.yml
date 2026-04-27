@@ -16,22 +16,29 @@ jobs:
     steps:
       - uses: lowlighter/metrics@master
         with:
+          filename: metrics-head.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          config_display: large
+          config_timezone: Asia/Manila
+          base: header
+          base_indepth: yes
+      - uses: lowlighter/metrics@master
+        with:
           filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          config_display: large
           config_timezone: Asia/Manila
-          base: header, activity, community, repositories, metadata
+          base: activity, community, repositories, metadata
           base_indepth: yes
-          plugin_habits: yes
-          plugin_habits_facts: yes
-          plugin_habits_charts: no
-          plugin_achievements: yes
-          plugin_achievements_threshold: C
-          plugin_achievements_display: detailed
-          plugin_achievements_only: >-
-            polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
-            scripter, packager, explorer, infographile, manager
-          plugin_languages: yes
-          plugin_languages_indepth: yes
-          plugin_languages_analysis_timeout_repositories: 15
-          plugin_languages_details: lines, bytes-size, percentage
-          config_order: base.header, achievements, base.repositories, languages, habits, base.activity, base.community, base.metadata
+          # plugin_achievements: yes
+          # plugin_achievements_threshold: C
+          # plugin_achievements_display: detailed
+          # plugin_achievements_only: >-
+          #   polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
+          #   scripter, packager, explorer, infographile, manager
+          # plugin_languages: yes
+          # plugin_languages_indepth: yes
+          # plugin_languages_analysis_timeout_repositories: 15
+          # plugin_languages_details: lines, bytes-size, percentage
+          # config_order: achievements, base.repositories, languages, habits, base.activity, base.community, base.metadata
+          config_order: base.repositories, habits, base.activity, base.community, base.metadata

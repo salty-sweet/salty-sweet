@@ -18,7 +18,6 @@ jobs:
         with:
           filename: metrics-head.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          config_display: large
           config_timezone: Asia/Manila
           base: header
           base_indepth: yes
@@ -26,7 +25,6 @@ jobs:
         with:
           filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          config_display: large
           config_timezone: Asia/Manila
           base: activity, community, repositories, metadata
           base_indepth: yes

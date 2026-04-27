@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="476" height="28" role="img"
+    aria-label="GITHUB: SALTY-SWEET">
+    <title>GITHUB: SALTY-SWEET</title>
+    <g shape-rendering="crispEdges">
+        <rect width="87.85545627345778" height="28" fill="#181717" />
+        <rect x="87.85545627345778" width="476" height="28" fill="#555" />
+    </g>
+    <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif"
+        text-rendering="geometricPrecision" font-size="100">
+        <image x="9" y="7" width="14.35545627345777" height="14"
+            href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjZmZmIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyMy40MDU3MzQ2Mjc5NzE0MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRpdGxlPkdpdEh1YjwvdGl0bGU+PHBhdGggZD0iTTEyIDBjLTYuNjMgMC0xMiA1LjM3My0xMiAxMiAwIDUuMzAzIDMuNDM4IDkuOCA4LjIwNSAxMS4zODUgMC42IDAuMTEzIDAuODItMC4yNTggMC44Mi0wLjU3NyAwLTAuMjg1LTAuMDEtMS4wNC0wLjAxNS0yLjA0LTMuMzM4IDAuNzI0LTQuMDQyLTEuNjEtNC4wNDItMS42MUM0LjQyMiAxNy43NzMgMy42MzMgMTcuNDAzIDMuNjMzIDE3LjQwM2MtMS4wODctMC43NDQgMC4wODQtMC43MjkgMC4wODQtMC43MjkgMS4yMDUgMC4wODQgMS44MzggMS4yMzYgMS44MzggMS4yMzYgMS4wNyAxLjgzNSAyLjgwOSAxLjMwNSAzLjQ5NSAwLjk5OCAwLjEwOC0wLjc3NiAwLjQxNy0xLjMwNSAwLjc2LTEuNjA1LTIuNjY1LTAuMy01LjQ2Ni0xLjMzMi01LjQ2Ni01LjkzIDAtMS4zMSAwLjQ2NS0yLjM4IDEuMjM1LTMuMjItMC4xMzUtMC4zMDMtMC41NC0xLjUyMyAwLjEwNS0zLjE3NiAwIDAgMS4wMDUtMC4zMjIgMy4zIDEuMjMgMC45Ni0wLjI2NyAxLjk4LTAuMzk5IDMtMC40MDUgMS4wMiAwLjAwNiAyLjA0IDAuMTM4IDMgMC40MDUgMi4yOC0xLjU1MiAzLjI4NS0xLjIzIDMuMjg1LTEuMjMgMC42NDUgMS42NTMgMC4yNCAyLjg3MyAwLjEyIDMuMTc2IDAuNzY1IDAuODQgMS4yMyAxLjkxIDEuMjMgMy4yMiAwIDQuNjEtMi44MDUgNS42MjUtNS40NzUgNS45MiAwLjQyIDAuMzYgMC44MSAxLjA5NiAwLjgxIDIuMjIgMCAxLjYwNi0wLjAxNSAyLjg5Ni0wLjAxNSAzLjI4NiAwIDAuMzE1IDAuMjEgMC42OSAwLjgyNSAwLjU3QzIwLjU2NSAyMS43OTUgMjQgMTcuMjk1IDI0IDEyYzAtNi42MjctNS4zNzMtMTItMTItMTIiLz48L3N2Zz4=" />
+        <text transform="scale(.1)" x="526.0545627345776" y="175" textLength="465" fill="#fff">
+            GITHUB</text>
+        <text transform="scale(.1)" x="1462.3045627345778" y="175" textLength="927.5" fill="#fff"
+            font-weight="bold">SALTY-SWEET</text>
+    </g>
+</svg>

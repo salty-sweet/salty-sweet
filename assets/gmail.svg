@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="476" height="28" role="img"
+    aria-label="GMAIL: RAFAEL.LENTERNA@GMAIL.COM">
+    <title>GMAIL: RAFAEL.LENTERNA@GMAIL.COM</title>
+    <g shape-rendering="crispEdges">
+        <rect width="83.91093289216757" height="28" fill="#ea4335" />
+        <rect x="83.91093289216757" width="476" height="28" fill="#555" />
+    </g>
+    <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif"
+        text-rendering="geometricPrecision" font-size="100">
+        <image x="9" y="7" width="18.66093289216757" height="14"
+            href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjZmZmIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNC4wMDAwMDAzMDYwNjU1MjcgMTguMDA1NTMwOTI1MzAyNDgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRpdGxlPkdtYWlsPC90aXRsZT48cGF0aCBkPSJNMjQgMi40NnYxMy45MDljMCAwLjkwNC0wLjczMiAxLjYzNi0xLjYzNiAxLjYzNmgtMy44MTlWOC43MzNMMTIgMTMuNjQzbC02LjU0NS00LjkxdjkuMjczSDEuNjM2QTEuNjM2IDEuNjM2IDAgMCAxIDAgMTYuMzY5VjIuNDZjMC0yLjAyMyAyLjMwOS0zLjE3OCAzLjkyNy0xLjk2NEw1LjQ1NSAxLjY0MyAxMiA2LjU1MWw2LjU0NS00LjkxIDEuNTI4LTEuMTQ1QzIxLjY5LTAuNzE3IDI0IDAuNDM3IDI0IDIuNDZ6Ii8+PC9zdmc+" />
+        <text transform="scale(.1)" x="527.8593289216757" y="175" textLength="382.5" fill="#fff">
+            GMAIL</text>
+        <text transform="scale(.1)" x="2020.3593289216758" y="175" textLength="2122.5" fill="#fff"
+            font-weight="bold">RAFAEL.LENTERNA@GMAIL.COM</text>
+    </g>
+</svg>

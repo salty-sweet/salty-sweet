@@ -38,7 +38,7 @@ jobs:
           config_timezone: Asia/Manila
           base: metadata
           base_indepth: yes
-          config_padding: 0, 0
+          config_padding: 0, 16px
       - uses: lowlighter/metrics@master
         with:
           filename: metrics-lang.svg
@@ -50,6 +50,8 @@ jobs:
           plugin_languages_sections: recently-used
           plugin_languages_limit: 6
           plugin_languages_analysis_timeout_repositories: 15
+          plugin_languages_recent_categories: data, markup, programming, prose
+          plugin_languages_recent_days: 365
           # plugin_languages_details: lines, bytes-size, percentage
           # config_order: achievements, base.repositories, languages, habits, base.activity, base.community, base.metadata
-          config_padding: 0, 0
+          config_padding: 0, 16px

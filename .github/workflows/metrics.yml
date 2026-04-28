@@ -30,7 +30,7 @@ jobs:
           base: activity, community, repositories
           base_indepth: yes
           config_order: base.repositories, habits, base.activity, base.community
-          config_padding: -32px, 32px
+          config_padding: -200px, 32px
       - uses: lowlighter/metrics@master
         with:
           filename: metrics-foot.svg

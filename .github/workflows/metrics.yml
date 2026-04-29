@@ -14,7 +14,8 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@master
+      - name: Create header info asset
+        uses: lowlighter/metrics@master
         with:
           filename: metrics-head.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -22,7 +23,8 @@ jobs:
           base: header
           base_indepth: yes
           config_padding: -32px, 8px
-      - uses: lowlighter/metrics@master
+      - name: Create metrics content asset
+        uses: lowlighter/metrics@master
         with:
           filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -31,7 +33,8 @@ jobs:
           base_indepth: yes
           config_order: base.repositories, habits, base.activity, base.community
           config_padding: -200px, 32px
-      - uses: lowlighter/metrics@master
+      - name: Create footer metadata asset
+        uses: lowlighter/metrics@master
         with:
           filename: metrics-foot.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -39,6 +42,14 @@ jobs:
           base: metadata
           base_indepth: yes
           config_padding: -32px, 16px
+      - name: Create total contributions sheet
+        uses: salty-sweet/render-contribs@main
+        with:
+          github_token: ${{ secrets.METRICS_TOKEN }}
+          zone: "Asia/Manila"
+          theme: "dracula"
+          output_path: "./contribs.png"
+        
       # - uses: lowlighter/metrics@master
       #   with:
       #     filename: metrics-lang.svg

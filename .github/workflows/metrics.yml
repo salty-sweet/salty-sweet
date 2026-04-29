@@ -42,12 +42,12 @@ jobs:
           base: metadata
           base_indepth: yes
           config_padding: -32px, 16px
-
   render-contribs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
+      - uses: actions/checkout@v4
       - name: Create total contributions sheet
         uses: salty-sweet/render-contribs@main
         with:

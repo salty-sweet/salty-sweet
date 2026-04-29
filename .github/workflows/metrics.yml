@@ -49,7 +49,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Create total contributions sheet
-        uses: salty-sweet/render-contribs@dev
+        uses: salty-sweet/render-contribs@main
         with:
           github_token: ${{ secrets.METRICS_TOKEN }}
           zone: "Asia/Manila"

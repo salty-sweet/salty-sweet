@@ -15,3 +15,12 @@
   <br>
   <img src="metrics-foot.svg" alt="Metrics" width="500"><br>
 </p>
+
+
+<details align="center">
+  <summary></summary>
+  <sub>✨ This contribution sheet was made using <a href="https://github.com/salty-sweet/render-contribs/">salty-sweet/render-contribs</a>! Check it out! ✨</sub>
+  <br>
+  <br>
+  <img src="contribs.png" alt="salty-sweet/render-contribs"><br>
+</details>

@@ -49,11 +49,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Create total contributions sheet
-        uses: salty-sweet/render-contribs@main
+        uses: salty-sweet/render-contribs@dev
         with:
           github_token: ${{ secrets.METRICS_TOKEN }}
           zone: "Asia/Manila"
-          theme: "dracula"
+          custom_theme: '{"background": "#ff000000","text": "#be8148","meta": "#6d6159","grade0": "#3a3533","grade1": "#90ca96","grade2": "#4da26a","grade3": "#298258","grade4": "#eaba73"}'
           output_path: "./contribs.png"
         
       # - uses: lowlighter/metrics@master

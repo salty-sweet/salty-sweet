@@ -53,7 +53,7 @@ jobs:
         with:
           github_token: ${{ secrets.METRICS_TOKEN }}
           zone: "Asia/Manila"
-          custom_theme: "{\"background\": \"#ff000000\",\"text\": \"#4da26a\",\"meta\": \"#90ca96\",\"grade0\": \"#3a3533\",\"grade1\": \"#6d6159\",\"grade2\": \"#f0d6a3\",\"grade3\": \"#eaba73\",\"grade4\": \"#be8148\"}"
+          custom_theme: "{\"background\": \"#ff000000\",\"text\": \"#ffffff\",\"meta\": \"#3a3533\",\"grade0\": \"#3a3533\",\"grade1\": \"#6d6159\",\"grade2\": \"#f0d6a3\",\"grade3\": \"#eaba73\",\"grade4\": \"#be8148\"}"
           output_path: "./contribs.png"
         
       # - uses: lowlighter/metrics@master

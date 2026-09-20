@@ -7,7 +7,7 @@
   <img alt="Gmail" src="assets/gmail.svg" width="500"><br>
   <img alt="Discord" src="assets/discord.svg" width="500"><br>
   <!--<img alt="Instagram" src="assets/instagram.svg" width="500"><br>-->
-  <img src="https://skills.syvixor.com/api/icons?i=windows,visualstudiocode,visualstudio,unity,cinema4d,canva,adobephotoshop,adobeillustrator,adobepremierepro,adobeaudition,github,vercel,googlesheets,powershell,git,npm,tailscale,csharp,cpp,dotnet,nodejs,html,css3,sass,javascript,typescript,electron,discordjs,expressjs,svelte,animejs,shadcnui,lucide,drizzle,turso,sqlite,postgresql,storybook,jest&perline=13&radius=25" width="500"/><br>
+  <img src="https://skills.syvixor.com/api/icons?i=windows,visualstudiocode,visualstudio,unity,cinema4d,canva,adobephotoshop,adobeillustrator,adobepremierepro,adobeaudition,googleworkspace,discord,nodejs,pnpm,typescript,javascript,svelte,tailwindcss,html,css3,csharp,cpp,dotnet,git,expressjs,electron,discordjs,betterauth,animejs,shadcnui,drizzle,sqlite,turso,postgresql,eslint,prettier&perline=12&radius=25" width="500"/><br>
   <img src="metrics.svg" alt="Metrics" width="500"><br>
   <sub><i>
     –—————————————————　　<a href="https://salty-sweet.github.io">saltysweet.github.io</a>　　—————————————————–
